@@ -1,0 +1,6 @@
+public class Solution {
+    public int[] SortedSquares(int[] nums) 
+    {
+        return nums.OrderBy(x => x*x).Select(x => x*x).ToArray();    
+    }
+}
